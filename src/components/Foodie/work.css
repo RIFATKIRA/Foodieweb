@@ -1,0 +1,37 @@
+.work-section-wrapper{
+    margin-top: 20px;
+
+}
+.work-section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.work-section-info {
+    width: 290px;
+    min-height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 2 rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+  }
+.work-section-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.work-section-info p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
